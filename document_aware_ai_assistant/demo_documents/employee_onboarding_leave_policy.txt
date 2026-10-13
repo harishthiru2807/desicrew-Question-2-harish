@@ -1,0 +1,55 @@
+Northstar Analytics Employee Onboarding and Leave Policy
+Effective date: 1 April 2026
+Document owner: People Operations
+Applies to: full-time employees in India unless a written exception is approved by People Operations.
+
+1. Purpose
+This policy explains how new hires join Northstar Analytics, how leave is earned, and which workplace arrangements are available after probation. Managers must apply this policy consistently. This document does not describe product software features, ticket SLAs, or HelioDesk error codes.
+
+2. Onboarding Timeline
+New employees complete a structured onboarding path.
+
+Week 1: People Operations issues an offer confirmation letter, assigns an onboarding buddy, and creates accounts for email, HR portal, and building access. The assigned buddy remains available for the first 30 calendar days.
+
+First 2 business days: Information Technology issues a company laptop, headset, and badge. If equipment is delayed, the manager must record the delay in the HR portal.
+
+Day 14: Every new hire must finish the mandatory security awareness course in the learning portal. Access to production systems is withheld until this course is marked complete.
+
+Day 30: The manager holds a 30-day check-in covering role expectations, tools, and remaining training.
+
+Day 90: Probation ends unless People Operations extends it in writing. A written confirmation is stored in the employee file.
+
+3. Probation
+The standard probation period is 90 calendar days from the official start date. During probation, employees accrue leave but may use annual leave only with written manager approval. Performance concerns during probation are documented in the HR portal.
+
+4. Leave Eligibility
+Annual leave: After probation ends, full-time employees receive 18 days of paid annual leave per calendar year, prorated for mid-year joiners.
+
+Sick leave: Employees receive 10 days of paid sick leave per calendar year. A medical certificate is required for absences of 3 consecutive working days or more.
+
+Parental leave: The primary caregiver is entitled to 16 weeks of paid parental leave. The secondary caregiver is entitled to 4 weeks of paid parental leave. Parental leave may begin up to 2 weeks before the expected date of birth or adoption placement.
+
+Public holidays: The company observes the holiday calendar published each December in the HR portal. Public holidays are in addition to annual leave.
+
+Leave Eligibility does not grant leave cash-out except at approved end of employment.
+
+5. Leave Requests and Carry Over
+Planned annual leave must be requested in the HR portal at least 7 calendar days in advance. Emergency leave should be recorded in the HR portal on the same working day whenever possible.
+
+Unused annual leave: A maximum of 5 unused annual leave days may be carried over into the next calendar year. Days above that remaining balance are forfeited on 31 December unless People Operations approves a written exception.
+
+Sick leave does not carry over.
+
+6. Work From Home
+After probation, employees may work from home for up to 2 days each working week with manager approval recorded in the HR portal. Work-from-home days are not an entitlement during probation, except for a documented medical or transport emergency approved by the manager.
+
+Core collaboration hours are 11:00 to 16:00 India Standard Time on office days.
+
+7. Notice Period
+Employees in individual contributor roles must provide 30 calendar days of written notice to resign. Employees in manager roles must provide 60 calendar days of written notice. Northstar Analytics may place an employee on garden leave during notice. The company does not use a 15-minute notice period; that figure belongs to product support SLAs, not employment.
+
+8. Conduct and Security
+Employees must not share HR portal passwords. Lost badges are reported to Workplace Services the same day. Production data is not copied to personal devices.
+
+9. Questions
+Policy questions are sent to peopleops@northstar.example. This mailbox does not handle HelioDesk product incidents.

@@ -1,0 +1,40 @@
+HelioDesk 4.2 Product Support and Troubleshooting Guide
+Product: HelioDesk 4.2 cloud helpdesk
+Audience: customer support engineers and administrators
+Last updated: 12 March 2026
+This guide covers product behaviour only. It does not define employee leave, probation, or notice-period rules for Northstar Analytics staff.
+
+1. Supported Browsers
+HelioDesk 4.2 is supported on Google Chrome 120 or later, Microsoft Edge 120 or later, and Mozilla Firefox 121 or later. Safari is not supported in this release. Mobile browsers may view tickets but cannot edit workflow automations.
+
+2. Sign-In Problems
+Users who sign in with SSO should wait 10 minutes after a password reset before retrying. Clearing the site cookies for the HelioDesk workspace and repeating SSO usually resolves a stuck redirect loop. Local username and password accounts are disabled when SSO is enforced for the workspace.
+
+If the user sees "workspace suspended", the billing administrator must restore the subscription in Settings > Billing. Support engineers must not promise a free month.
+
+3. Error Code HD-441
+Error HD-441 means the ticket attachment exceeds 25 MB. Compress the file, split the archive, or place the file in the approved object store and paste the link into the ticket. HelioDesk 4.2 does not raise HD-441 for leave requests or HR documents stored outside the product.
+
+4. Error Code HD-902
+Error HD-902 is informational: the SLA timer is paused because the ticket status is Pending Customer. The timer resumes when the ticket returns to Open or In Progress. HD-902 is not a login failure and is not an employment-policy event.
+
+5. Priority Response Targets
+Priority P1 incidents require a first response within 15 minutes, 24 hours a day.
+Priority P2 incidents require a first response within 2 hours during subscribed support hours.
+Priority P3 incidents require a first response within 1 business day.
+These timers measure product support response, not employee resignation notice.
+
+6. Data Export
+Workspace owners can export tickets from Settings > Workspace > Export. The export job can take up to 24 hours. The download link expires after 72 hours. Exports include ticket text, tags, and public comments. Private internal notes are included only when the requester holds the Data Admin role.
+
+7. Integrations
+HelioDesk 4.2 supports Slack notifications, Jira issue linking, and a Zendesk migrator. The Zendesk migrator copies open tickets and contacts; it does not copy historical SLA calendars. There is no blockchain integration in this release.
+
+8. Known Issue: Merged Ticket CC Recipients
+When two tickets are merged, CC recipients on the source ticket are not notified. Workaround: after the merge, open the surviving ticket and use Share > Notify CC to send a manual update. Engineering tracked this as ticket HDENG-1882. Do not tell customers that CC notification on merge is already fixed.
+
+9. Offline Mode
+HelioDesk 4.2 does not support offline mode. Agents must have a network connection to view or update tickets.
+
+10. First Troubleshooting Steps
+For any new incident, confirm the browser version, reproduce in a private window, capture the exact error code, and note the ticket ID. If the issue involves attachments, check whether the file is larger than 25 MB before escalating.

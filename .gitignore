@@ -1,0 +1,41 @@
+# Environment & Secrets
+.env
+*.env
+.streamlit/secrets.toml
+secrets.toml
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Testing & Coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local data & logs
+uploads/
+tmp/
+temp/
+local_indexes/
+*.faiss
+*.index
+*.log
+.cache/
+sentence-transformers-cache/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
